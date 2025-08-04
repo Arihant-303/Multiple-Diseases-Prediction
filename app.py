@@ -4,14 +4,23 @@ import numpy as np
 
 # Load models and scalers manually
 import joblib
-diabetes_model = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Diabetes/Best_model_diabetes_model.pkl')
-diabetes_scaler = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Diabetes/diabetes_scaler.pkl')
+# diabetes_model = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Diabetes/Best_model_diabetes_model.pkl')
+# diabetes_scaler = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Diabetes/diabetes_scaler.pkl')
 
-cancer_model = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Cancer/Cancer_model.pkl')
-cancer_scaler = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Cancer/Cancer_scaler.pkl')
+# cancer_model = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Cancer/Cancer_model.pkl')
+# cancer_scaler = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Cancer/Cancer_scaler.pkl')
 
-heart_model = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Heart_Failure/Heart_Failure_model.pkl')
-heart_scaler = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Heart_Failure/Heart_failure_scaler.pkl')
+# heart_model = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Heart_Failure/Heart_Failure_model.pkl')
+# heart_scaler = joblib.load('E:/Data_Science/Deployement/Multiple_Diseases_Prediction/Heart_Failure/Heart_failure_scaler.pkl')
+
+diabetes_model = joblib.load('Diabetes/Best_model_diabetes_model.pkl')
+diabetes_scaler = joblib.load('Diabetes/diabetes_scaler.pkl')
+
+cancer_model = joblib.load('Cancer/Cancer_model.pkl')
+cancer_scaler = joblib.load('Cancer/Cancer_scaler.pkl')
+
+heart_model = joblib.load('Heart_Failure/Heart_Failure_model.pkl')
+heart_scaler = joblib.load('Heart_Failure/Heart_failure_scaler.pkl')
 
 
 # Sidebar
