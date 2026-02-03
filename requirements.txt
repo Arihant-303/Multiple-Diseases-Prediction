@@ -3,6 +3,4 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-#pickle
-streamlit
 joblib
